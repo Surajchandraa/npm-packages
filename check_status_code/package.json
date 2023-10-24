@@ -1,0 +1,12 @@
+{
+  "name": "check_status_code",
+  "version": "2.0.3",
+  "description": "- The http-status-codes package simplifies working with HTTP status codes in Node.js applications. It provides an easy-to-use mapping of common HTTP status codes to their corresponding messages, making it effortless for developers to convey response statuses in their applications.",
+  "main": "status_code.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Suraj chandra",
+  "license": "ISC"
+}

@@ -1,6 +1,6 @@
 {
   "name": "morse_code_enc_dec.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Using this npm package you can encode or decode the morse data.",
   "main": "index.js",
   "scripts": {

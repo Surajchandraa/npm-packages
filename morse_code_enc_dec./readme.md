@@ -5,13 +5,15 @@
 - `npm i morsecode`
 
 ## Example code:
-- `let morse=require('./converter');
-let suraj=morse.text_to_morse("hi suraj");
-console.log(suraj)
+- ```js
+    let morse=require('morse_code_enc_dec.');
+    let suraj=morse.text_to_morse("hi suraj");
+    console.log(suraj)
 
 
-let joshi=morse.morse_to_text(".... .. / - .... .. ... / .. ... / ... ..- .-. .- .--- -.-. .... .- -. -.. .-. .- .--- --- ... .... ..");
-console.log(joshi)`
+    let joshi=morse.morse_to_text(".... .. / - .... .. ... / .. ... / ... ..- .-. .- .--- -.-. .... .- -. -.. .-. .- .--- --- ... .... ..");
+    console.log(joshi)
+    
 
 
 - here two functions are provided to you
