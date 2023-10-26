@@ -4,6 +4,7 @@ const cheerio = require('cheerio');
 
 
 
+
 function paragraph(url,callback){
 request(url,(error,response,body)=>{
     if(!error && response.statusCode==200){
@@ -18,6 +19,8 @@ request(url,(error,response,body)=>{
     }
 })
 }
+
+
 
 
 function title(url,callback){
@@ -100,11 +103,78 @@ function keywords(url,callback){
         }
     })
 }
+
+function social_media(url,callback){
+    request(url,(error,response,body)=>{
+        if(!error && response.statusCode==200){
+        const $ = cheerio.load(body);
+        let socialmedia={};
+        $('a').each((index,element)=>{
+            const href = $(element).attr('href');
+            if(href){
+                if(href.includes('facebook.com')){
+                    socialmedia.facebook=href;
+                }
+                else if(href.includes('instagram.com')){
+                    socialmedia.instagram=href;
+                }
+                else if(href.includes('linkedin.com')){
+                    socialmedia.linkedin=href;
+                }
+                else if(href.includes('twitter.com')){
+                    socialmedia.twitter=href;
+                }
+                else if(href.includes('github.com')){
+                    socialmedia.github=href;
+                }
+                else if(href.includes('youtube.com')){
+                    socialmedia.youtube=href;
+                }
+                else if(href.includes('pinterest.com')){
+                    socialmedia.pinterest=href;
+                }
+                else if(href.includes('tiktok.com')){
+                    socialmedia.tiktok=href;
+                }
+                else if(href.includes('reddit.com')){
+                    socialmedia.reddit=href;
+                }
+                else if(href.includes('discord.com')){
+                    socialmedia.discord=href;
+                }
+                else if(href.includes('skype.com')){
+                    socialmedia.skype=href;
+                }
+                else if(href.includes('whatsapp.com')){
+                    socialmedia.whatsapp=href;
+                }
+                else if(href.includes('tumblr.com')){
+                    socialmedia.tumblr=href;
+                }
+                else if(href.includes('quora.com')){
+                    socialmedia.quora=href;
+                }
+                
+            }
+        })
+        if (Object.keys(socialmedia).length === 0) {
+            socialmedia.not_found = "no links found";
+        }
+
+        callback(null,socialmedia)
+
+        }
+        else{
+            callback(error)
+        }
+    })
+}
 module.exports={
     paragraph,
     title,
     links,
     images,
     description,
-    keywords
+    keywords,
+    social_media
 }

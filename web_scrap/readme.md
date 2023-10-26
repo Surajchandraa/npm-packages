@@ -20,5 +20,6 @@
     scrap.paragraph(url,callback) //for paragraphs 
     scrap.title(url,callback) //for title
     scrap.images(url,callback) //extracts the src of images
-    scrap.description(url,callback)
+    scrap.description(url,callback) 
     scrap.keywords(url,callback)
+    scrap.social_media(url,callback) // using social_media function you can extract social media links of a website
