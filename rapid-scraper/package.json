@@ -1,15 +1,17 @@
 {
-  "name": "my_own_npm_package",
-  "version": "1.0.1",
+  "name": "rapid-scraper",
+  "version": "1.0.7",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "suraj chandra",
   "license": "ISC",
   "dependencies": {
-    "my_own_npm_package": "^1.0.0"
+    "cheerio": "^1.0.0-rc.12",
+    "request": "^2.88.2",
+    "web_scrap": "^1.0.0"
   }
 }

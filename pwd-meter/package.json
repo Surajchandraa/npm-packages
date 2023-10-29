@@ -1,0 +1,12 @@
+{
+  "name": "pwd-meter",
+  "version": "1.0.2",
+  "description": "Using this package you can calculate strength of password",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Suraj chandra",
+  "license": "ISC"
+}

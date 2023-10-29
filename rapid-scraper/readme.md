@@ -1,12 +1,12 @@
-# web_scrap:
+# rapid-scraper:
 - Using this package you can scrap the specific data of a website. example- urls,images,text,title etc.
 
 ## Installation:
-- `npm i web_scrap`
+- `npm i rapid-scraper`
 
 ## Code example:
 - ```js
-    let scrap = require('web_scrap');
+    let scrap = require('rapid-scraper');
     scrap.links("https://github.com/Surajchandraa/Web-scraper-API",(error,result)=>{
     console.log(result);
     })
@@ -15,7 +15,7 @@
 ## functions provided:
 - 
 ```js
-    let scrap = require('web_scrap');
+    let scrap = require('rapid-scraper');
     scrap.links(url,callback) // for links
     scrap.paragraph(url,callback) //for paragraphs 
     scrap.title(url,callback) //for title
