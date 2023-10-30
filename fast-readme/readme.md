@@ -9,5 +9,5 @@
 
 ## steps to use:
 - installation `npm i fastreadme`
-- run command `generate readme`
+- run command `generate-readme`
 

@@ -1,0 +1,15 @@
+{
+  "name": "struct-nd",
+  "version": "1.0.1",
+  "description": "",
+  "main": "generate_structure.js",
+  "bin": {
+    "struct": "./bin/struct"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "suraj chandra",
+  "license": "ISC"
+}
