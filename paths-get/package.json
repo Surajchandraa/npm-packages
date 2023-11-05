@@ -1,0 +1,15 @@
+{
+  "name": "paths-get",
+  "version": "1.0.0",
+  "description": "using this package you can find file paths",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "suraj chandra",
+  "license": "ISC",
+  "bin": {
+    "find-file": "./index.js"
+  }
+}
