@@ -1,0 +1,24 @@
+{
+  "name": "pathlet",
+  "version": "1.0.0",
+  "description": "using this package you can find file paths",
+  "main": "find.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "file",
+    "directory",
+    "path",
+    "find",
+    "locate",
+    "search",
+    "explorer",
+    "filesystem",
+    "utility",
+    "node"
+  ],
+  "author": "suraj chandra",
+  "license": "ISC"
+  
+}
