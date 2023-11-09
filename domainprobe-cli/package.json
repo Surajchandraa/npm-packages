@@ -1,0 +1,18 @@
+{
+  "name": "domainprobe-cli",
+  "version": "1.0.0",
+  "description": "A CLI for the Domainprobe package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["domainprobe", "cli", "command-line", "ip", "hostname", "domain-info", "ip-info"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "domainprobe": "^1.0.1"
+  },
+  "bin": {
+    "domainprobe": "./index.js"
+  }
+}
