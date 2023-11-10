@@ -11,3 +11,6 @@
 - installation `npm i fastreadme`
 - run command `generate-readme`
 
+## output:
+- it will ask questions related to readme and generate  readme
+
