@@ -2,11 +2,11 @@
 - Using this npm package you can encode or decode the morse data.
 
 ## Installation:
-- `npm i morsecode`
+- `npm i morse-conv`
 
 ## Example code:
 - ```js
-    let morse=require('morse_code_enc_dec.');
+    let morse=require('morse-conv');
     let suraj=morse.text_to_morse("hi suraj");
     console.log(suraj)
 
