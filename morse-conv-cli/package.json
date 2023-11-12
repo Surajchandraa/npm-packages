@@ -1,0 +1,18 @@
+{
+  "name": "morse-conv-cli",
+  "version": "1.0.0",
+  "description": "cli tool to encode or decode morse code",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["morse code","javascript","cli tool","morse data"],
+  "author": "suraj chandra",
+  "license": "ISC",
+  "dependencies": {
+    "morse-conv": "^1.0.1"
+  },
+  "bin":{
+    "conv":"./index.js"
+  }
+}

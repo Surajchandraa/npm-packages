@@ -4,10 +4,11 @@ const generateReadme = require('./readme');
 
 
 const readmePath = './README.md';
+const readmeother='./readme.md';
 
 // Check if README already exists
 function generate(){
-if (fs.existsSync(readmePath)){
+if (fs.existsSync(readmePath) || fs.existsSync(readmeother)){
     console.log("readme file already exist")
 }else{
 const projectName = readlineSync.question('Enter project name: ');

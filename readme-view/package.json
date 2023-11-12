@@ -1,6 +1,6 @@
 {
   "name": "readme-view",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "type": "module",
   "main": "index.js",
@@ -12,7 +12,8 @@
   "license": "ISC",
   "dependencies": {
     "markdown-it": "^13.0.2",
-    "opn": "^6.0.0"
+    "opn": "^6.0.0",
+    "readme-view": "^1.0.0"
   },
   "bin": {
     "pre-md": "./index.js"
