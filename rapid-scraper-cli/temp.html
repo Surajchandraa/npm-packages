@@ -1,0 +1,64 @@
+<h1>rapid-scraper-cli</h1>
+<p>cli tool for web scraping. you can get links,images,description,title,keywords,social_media links etc of a website using commands.</p>
+<h2>Installation:</h2>
+<ul>
+<li><code>npm install rapid-scraper-cli</code></li>
+</ul>
+<h2>command:</h2>
+<pre><code class="language-bash">    get &lt;info&gt; &lt;website_url&gt;
+</code></pre>
+<h2>commands available:</h2>
+<ul>
+<li><code>get links url</code></li>
+<li><code>get description url</code></li>
+<li><code>get images url</code></li>
+<li><code>get social url</code></li>
+<li><code>get para url</code></li>
+<li><code>get title url</code></li>
+<li><code>get keywords url</code></li>
+</ul>
+<h2>Example 1-</h2>
+<ul>
+<li>
+<pre><code class="language-bash">  get links https://github.com/
+
+</code></pre>
+</li>
+<li>
+<pre><code class="language-js">  '#start-of-content',
+  'https://github.com/',
+  '/signup?ref_cta=Sign+up&amp;ref_loc=header+logged+out&amp;ref_page=%2F&amp;source=header-home',
+  '/features/actions',
+  '/features/packages',
+  '/features/security',
+  '/features/codespaces',
+  '/features/copilot',
+  '/features/code-review',
+  '/features/issues',
+  '/features/discussions',
+  '/features',
+  'https://docs.github.com',
+  'https://skills.github.com/',
+  'https://github.blog',
+  ... more items
+</code></pre>
+</li>
+</ul>
+<h2>Example 2:</h2>
+<ul>
+<li>
+<pre><code class="language-bash">  get social https://github.com/
+</code></pre>
+</li>
+<li>
+<pre><code class="language-js"> 'https://github.githubassets.com/assets/hero-desktop-a38b0fd77b6c.webp',
+ 'https://github.githubassets.com/assets/hero-mobile-7163f4f5de41.webp',
+ 'https://github.githubassets.com/assets/eyebrow-23@2x-563f292d9e30.png',
+ 'https://github.githubassets.com/assets/3m-0151c2fda0ce.svg',
+ 'https://github.githubassets.com/assets/kpmg-c249f20c5173.svg',
+ 'https://github.githubassets.com/assets/mercedes-fcf97d2d6ec4.svg',
+ 'https://github.githubassets.com/assets/sap-96248a56d312.svg',
+
+</code></pre>
+</li>
+</ul>

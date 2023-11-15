@@ -1,0 +1,24 @@
+{
+  "name": "rapid-scraper-cli",
+  "version": "1.0.3",
+  "description": "cli tool for webscraping , a very quick scraper",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "scrapper",
+    "web scrapper",
+    "website",
+    "fast",
+    "web information"
+  ],
+  "author": "suraj chandra",
+  "license": "MIT",
+  "dependencies": {
+    "rapid-scraper": "^1.0.7"
+  },
+  "bin": {
+    "get": "./index.js"
+  }
+}
