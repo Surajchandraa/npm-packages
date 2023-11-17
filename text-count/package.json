@@ -1,0 +1,19 @@
+{
+  "name": "text-count",
+  "version": "1.0.0",
+  "description": "information of string(text)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "text analysis",
+    "utility",
+    "character count",
+    "word count",
+    "sentence count",
+    "line count"
+  ],
+  "author": "suraj chandra",
+  "license": "MIT"
+}
