@@ -1,6 +1,6 @@
 {
   "name": "domainprobe-cli",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A CLI for the Domainprobe package",
   "main": "index.js",
   "scripts": {
@@ -21,6 +21,6 @@
     "domainprobe": "./index.js"
   },
   "dependencies": {
-    "domainprobe": "^1.0.3"
+    "domainprobe": "^1.0.5"
   }
 }

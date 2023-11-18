@@ -23,7 +23,7 @@ The Domainprobe CLI provides a command-line interface for the Domain Info Extrac
 ```
 
 - ***output***-
-![Screenshot](image-3.png)
+![Screenshot](images/image-3.png)
 
 
 ## Example 2:
@@ -34,7 +34,7 @@ The Domainprobe CLI provides a command-line interface for the Domain Info Extrac
 ```
 
 - ***output***-
-![Screenshot](image.png)
+![Screenshot](images/image.png)
 
 
 ## Example 3:
@@ -45,7 +45,7 @@ The Domainprobe CLI provides a command-line interface for the Domain Info Extrac
 
 ```
 - ***Output***-
-![Screenshot](image-1.png)
+![Screenshot](images/image-1.png)
 
 ## Example 4:
 - ***command***-
@@ -54,7 +54,7 @@ The Domainprobe CLI provides a command-line interface for the Domain Info Extrac
 
 ```
 - ***output***-
-![Screenshot](image-2.png)
+![Screenshot](images/image-2.png)
 
 ## Example 5:
 - ***command***-
@@ -64,5 +64,5 @@ The Domainprobe CLI provides a command-line interface for the Domain Info Extrac
 ```
 
 - ***Output***-
-![Screenshot](location.png)
+![Screenshot](images/location.png)
         
