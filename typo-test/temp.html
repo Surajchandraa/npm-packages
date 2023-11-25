@@ -1,0 +1,64 @@
+<h1>typo-test</h1>
+<p>test your typing speed [words per minute] and accuracy</p>
+<h2>Installation:</h2>
+<ul>
+<li>for installation run the command-</li>
+</ul>
+<pre><code class="language-bash">    npm install typo-test
+</code></pre>
+<h2>Functions available-</h2>
+<ol>
+<li>calculatespeed(examplestring,callback) // for the calculation of speed in words per minute and accuracy.</li>
+<li>randomstring() // returns the random strings.</li>
+</ol>
+<h2>Usage-</h2>
+<blockquote>
+<blockquote>
+<p><strong>calculatespeed()</strong></p>
+</blockquote>
+</blockquote>
+<ul>
+<li><em><strong>program</strong></em></li>
+</ul>
+<pre><code class="language-js">
+    const speed = require('typo-test');
+
+    speed.calculatespeed(&quot;hi buddy how are you what are u doing&quot;,(err,out)=&gt;{
+        console.log(out);
+    })
+</code></pre>
+<ul>
+<li><em><strong>output</strong></em></li>
+</ul>
+<pre><code class="language-bash">
+    Type this: &quot;hi buddy how are you what are u doing&quot;
+
+    hi buddw how are you what are u doung // this will typed by user
+
+      { accuracy: 77.779, wordsPerMinute: 28 }
+
+</code></pre>
+<blockquote>
+<blockquote>
+<p><strong>randomstring()</strong></p>
+</blockquote>
+</blockquote>
+<ul>
+<li><em><strong>program</strong></em></li>
+</ul>
+<pre><code class="language-js">    const speed = require('typo-test');
+
+    speed.calculatespeed(speed.randomstring(),(err,out)=&gt;{
+        console.log(out);
+    })
+
+</code></pre>
+<ul>
+<li><em><strong>output</strong></em></li>
+</ul>
+<pre><code class="language-bash">    Type this: &quot;Software development involves not just writing code but also understanding user needs and creating solutions that make a difference.&quot;
+
+    softwaree development involves not just writing code but also understanding user needs and creating solution that make a difference
+
+    { accuracy: 84.217, wordsPerMinute: 28 }
+</code></pre>

@@ -1,0 +1,18 @@
+{
+  "name": "typo-test",
+  "version": "1.0.1",
+  "description": "A package to measure typing speed in words per minute and accuracy.",
+  "keywords": [
+    "typing",
+    "speed",
+    "accuracy",
+    "test",
+    "words per minute"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "suraj chandra",
+  "license": "ISC"
+}

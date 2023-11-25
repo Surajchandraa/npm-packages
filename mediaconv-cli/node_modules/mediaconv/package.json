@@ -1,0 +1,23 @@
+{
+  "name": "mediaconv",
+  "version": "1.0.1",
+  "description": "This project consists of functionalities to convert video files to audio and play audio files using Node.js and ffmpeg.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "video",
+    "audio",
+    "converter",
+    "ffmpeg",
+    "Node.js"
+  ],
+  "author": "suraj chandra",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Surajchandraa/mediaconv.git",
+    "homepage": "https://github.com/Surajchandraa/mediaconv"
+  }
+}
