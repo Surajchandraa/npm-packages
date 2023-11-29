@@ -16,7 +16,7 @@ else if(select_functionality==='hostname'){
 }
 else if(select_functionality==='domain-info'){
     domainprobe.data_extract(input,(err,data)=>{
-        console.table(data)
+        console.table(data);
     })
 }
 else if(select_functionality==='ip-info'){
