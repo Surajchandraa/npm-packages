@@ -1,0 +1,15 @@
+{
+  "name": "disk-cleanup-cli",
+  "version": "1.0.0",
+  "description": "cli tool for disk-cleanup package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Suraj chandra",
+  "license": "ISC",
+  "dependencies": {
+    "disk-cleanup": "^1.0.1"
+  }
+}
