@@ -6,10 +6,12 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": ["disk-cleanup", "file-management","nodejs","file-size-filter","file-deletion"],
   "author": "Suraj chandra",
   "license": "ISC",
   "dependencies": {
-    "disk-cleanup": "^1.0.1"
-  }
-}
+    "disk-cleanup": "^1.0.2"
+  },
+  "bin":{
+    "disk":"./index.js"
+  }}
