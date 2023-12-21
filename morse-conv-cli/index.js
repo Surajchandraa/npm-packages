@@ -13,6 +13,11 @@ else if(input==='text-morse'){
     let op2=morse.text_to_morse(textormorse);
     console.log(op2)
 }
+else if(input=='--help'){
+    console.log("Available commands");
+    console.log("conv morse-test <morse data that you want to convert in the text");
+    console.log("conv text-morse <text data you want to convert in the morse data");
+}
 else{
     console.log('command not found')
 }
