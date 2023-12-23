@@ -10,6 +10,6 @@
   "author": "suraj chandra",
   "license": "ISC",
   "dependencies": {
-    "mediaconv": "^1.0.1"
+    "mediaconv": "^1.0.4"
   }
 }

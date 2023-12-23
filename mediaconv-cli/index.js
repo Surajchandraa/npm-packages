@@ -20,10 +20,11 @@ else if(inp=='play'){
         media.play(inp2);
     }
 }
-else if(inp=="--help){
-  console.log("commands available--->);
-  console.log("conv convert <video file> <audio file>);
- console.log("conv play <audio or video file path);
+else if(inp=="--help"){
+  console.log("commands available--->");
+  console.log("conv convert <video file> <audio file>");
+ console.log("conv play <audio or video file path>");
+}
 else{
     console.log("invalid command")
 }
