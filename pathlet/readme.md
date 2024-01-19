@@ -8,7 +8,7 @@ Using this package you can find files and get their paths.
 
 - require package as get_file_location and use
 
-    ```js
+    ```js 
     const get_file_location = require('pathlet');
 
     get_file_location(filename, (error, result) => {
