@@ -12,6 +12,8 @@ This is a simple JavaScript utility for analyzing text. It provides functions to
 - count number of words.
 - count total characters.
 - count sentences in given text.
+- count most common words.
+- most common characters.
 
 ## Usage:
 - To use this utility, you can import the functions into your JavaScript code:
@@ -22,10 +24,10 @@ This is a simple JavaScript utility for analyzing text. It provides functions to
     // Example Usage
     const text = "This is an example text. It has multiple sentences.\nEach sentence is on a new line.";
 
-    console.log("Character Count:", count.char_count(text));
-    console.log("Word Count:", count.word_count(text));
-    console.log("Sentence Count:", count.sen_count(text));
-    console.log("Line Count:", count.line_count(text));
+    console.log("Character Count:", count.charCount(text));
+    console.log("Word Count:", count.wordCount(text));
+    console.log("Sentence Count:", count.senCount(text));
+    console.log("Line Count:", count.lineCount(text));
 
   //  >>Character Count: 83
   //  >>Word Count: 16
@@ -49,10 +51,10 @@ This is a simple JavaScript utility for analyzing text. It provides functions to
             return;
         }
 
-        console.log("Character Count:", count.char_count(data));
-        console.log("Word Count:", count.word_count(data));
-        console.log("Sentence Count:", count.sen_count(data));
-        console.log("Line Count:", count.line_count(data));
+        console.log("Character Count:", count.charCount(data));
+        console.log("Word Count:", count.wordCount(data));
+        console.log("Sentence Count:", count.senCount(data));
+        console.log("Line Count:", count.lineCount(data));
     });
 
 ```
