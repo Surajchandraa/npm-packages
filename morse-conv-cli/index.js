@@ -1,9 +1,11 @@
 #!/usr/bin/env node
 const morse = require('morse-conv');
+const readfile=require("./file_to_morse")
 
 
 let input = process.argv[2];
 let textormorse = process.argv[3];
+let d=process.argv[4];
 
 if(input==='morse-text'){
     let op=morse.morse_to_text(textormorse);
@@ -18,6 +20,39 @@ else if(input=='--help'){
     console.log("conv morse-test <morse data that you want to convert in the text");
     console.log("conv text-morse <text data you want to convert in the morse data");
 }
+else if(input=='--f'){
+    if(textormorse=="text-morse"){
+        if(!d){
+            console.log("please provide file path");
+        }
+        else{
+            readfile(d,(err,result)=>{
+                if(err){
+                    console.log(err);
+                }
+                else{
+                    console.log(morse.text_to_morse(result));
+                }
+            })
+        }
+    }
+    else if(textormorse=="morse-text"){
+        if(!d){
+            console.log("please provide file path");
+        }
+        else{
+            readfile(d,(err,result)=>{
+                if(err){
+                    console.log(err);
+                }
+                else{
+                    console.log(morse.morse_to_text(result));
+                }
+            })
+        }
+
+    }
+}
 else{
-    console.log('command not found')
+    console.log("invalid command");
 }
