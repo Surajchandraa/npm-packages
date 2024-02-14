@@ -1,5 +1,7 @@
 const morse_text=require('./src/morse_text');
-const morse_code=require('./src/morse_code')
+const morse_code=require('./src/morse_code');
+const readfile=require('./file_data');
+
 function morse_to_text(data){
     let finaldata=[];
     let data2=data.replace(/\s/g,',');
@@ -38,7 +40,11 @@ function text_to_morse(data){
     return finaldata.join(' ');
 }
 
+readfile('/home/suraj/Desktop/npm packages/morse-conv/LICENCE.txt',(err,res)=>{
+    console.log(morse_to_text(res));
+})
 module.exports={
     morse_to_text,
-    text_to_morse
+    text_to_morse,
+    readfile
 }
