@@ -65,3 +65,6 @@ console.log('298.15K to Fahrenheit:', thermoshift.Kelvin_to_Fahrenheit(298.15));
 
 ### Newton Conversions
 - `Newton_to_Celsius(newton)`
+
+## Contribution:
+feel free to contribute. 
