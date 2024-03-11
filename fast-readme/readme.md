@@ -14,3 +14,6 @@
 ## output:
 - it will ask questions related to readme and generate  readme
 
+## contribution:
+feel free to contribute
+
