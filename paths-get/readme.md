@@ -13,4 +13,7 @@ The finder-cli tool allows you to find file locations on your desktop using a co
 - ***Output***:
     ```js
     File Location: /home/suraj/Desktop/packages/finder-cli/computer.js
-    File Location: /home/suraj/Desktop/packages/finder-cli/com/computer.js 
+    File Location: /home/suraj/Desktop/packages/finder-cli/com/computer.js
+
+## Contribution:
+- feel free to contribute.
