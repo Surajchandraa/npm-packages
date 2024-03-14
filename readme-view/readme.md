@@ -19,4 +19,5 @@ A command-line tool for previewing README.md files in a web browser.
 - opn
 - markdown-it
 
+Advanced version of this package is md-browser
 
