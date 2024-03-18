@@ -1,0 +1,12 @@
+{
+  "name": "number-system",
+  "version": "1.0.0",
+  "description": "Check the numbers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["number system","number operations"],
+  "author": "Suraj chandra",
+  "license": "ISC"
+}
