@@ -1,12 +1,23 @@
-function factorial(number){
+function Factorial(number){
     let fact=1;
     if(number==0){
-        return 1;
+        return fact;
     }
-    for(let i=1;i<number;i++){
+    for(let i=1;i<=number;i++){
         fact*=i;
     }
-    console.log(fact);
+    return fact;
 }
 
-module.exports=factorial;
+function nFactorial(arr){
+    let count=0;
+    let ret=[];
+    while(count<arr.length){
+        ret.push(Factorial(arr[count]));
+        count++;
+    }
+    return ret;
+}
+let ar=[2,3,4,5,6]
+console.log(nFactorial(ar))
+module.exports={nFactorial,Factorial};
