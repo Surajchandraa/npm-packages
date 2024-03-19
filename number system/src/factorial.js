@@ -18,6 +18,4 @@ function nFactorial(arr){
     }
     return ret;
 }
-let ar=[2,3,4,5,6]
-console.log(nFactorial(ar))
 module.exports={nFactorial,Factorial};
