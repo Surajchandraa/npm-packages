@@ -44,5 +44,8 @@ Using this package you can find files and get their paths.
 ## Usage:
 - if you are in Desktop directory and search a specific file it will find all files of that exact name with extension in Desktop and all of its subdirectorires.
 
+## contribution:
+- feel free to contribute. 
+
 
    
