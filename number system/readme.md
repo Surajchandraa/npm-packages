@@ -12,3 +12,6 @@ This is a simple npm package provides the functions to get information about num
 - CheckOdd(number) //return true or false
 - factorial(number) //return factorial or number
 
+## Contribution:
+feel free to contribute in this library add more packages.
+
