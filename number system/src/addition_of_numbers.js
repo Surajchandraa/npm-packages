@@ -3,6 +3,6 @@ function AddWhole(number){
    return sum;
 }
 
-console.log(AddWhole(10));
+
 
 module.exports=AddWhole;
