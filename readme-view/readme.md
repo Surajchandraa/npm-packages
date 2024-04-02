@@ -21,3 +21,5 @@ A command-line tool for previewing README.md files in a web browser.
 
 Advanced version of this package is md-browser
 
+##  Contribution:
+feel free to contribute. 
