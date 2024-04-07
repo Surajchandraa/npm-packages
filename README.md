@@ -7,3 +7,5 @@ click on link to check my npm profile.
 feedback me -surajjosh7@gmail.com
 . 
 
+feel free to contribute. 
+
