@@ -1,0 +1,15 @@
+{
+  "name": "pass-create",
+  "version": "1.0.0",
+  "description": "password generator npm package",
+  "main": "index.js",
+  "bin": {
+    "pswd": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["password generator","passwords","random characters","customizable passwords"],
+  "author": "Suraj chandra",
+  "license": "ISC"
+}
