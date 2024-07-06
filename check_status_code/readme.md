@@ -2,13 +2,13 @@
 - The http-status-codes package simplifies working with HTTP status codes in Node.js applications. It provides an easy-to-use mapping of common HTTP status codes to their corresponding messages, making it effortless for developers to convey response statuses in their applications.
 
 ## Installation:
-- `npm i status_code`
+- `npm i check_status_code`
 
 ## Code example:
 
 - ```js
-    const status_code=require('status_code');
-    console.log(status_code[200])
+    const code=require('check_status_code');
+    console.log(code.StatusCode[200])
     
 
 ## Code example2:
