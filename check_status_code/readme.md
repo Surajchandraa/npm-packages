@@ -16,14 +16,14 @@
 - 
 ```js
 const axios = require('axios');
-const status_code = require('status_code');
+const status_code = require('check_status_code');
 
 const URL = 'https://jsonplaceholder.typicode.com/posts/1'; // Example URL
 
 axios.get(URL)
   .then(response => {
     const statusCode = response.status;
-    const statusMeaning = status_code[statusCode] || 'Unknown';
+    const statusMeaning = StatusCode[statusCode] || 'Unknown';
     
     console.log(`Status Code: ${statusCode}`);
     console.log(`Status Meaning: ${statusMeaning}`);
